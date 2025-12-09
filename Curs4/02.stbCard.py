@@ -59,3 +59,12 @@ print(card_florin)
 for i in range(5):
     card_florin.calatoreste()
     print(card_florin)
+
+
+card_florin.reincarcare_cu_credit(10)
+print(card_florin)
+
+card_florin.credit = "infinit"
+print(card_florin)
+
+# card_florin.calatoreste()
